@@ -29,14 +29,20 @@
                 android:textColor="@android:color/black" />
 
             <!-- Banner Image -->
-            <ImageView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
-                android:src="@drawable/bannerone"
-                android:scaleType="fitXY"
-                android:layout_marginTop="20dp"
-                android:background="@android:color/darker_gray"
-                android:contentDescription="Awurudu Banner" />
+                app:cardCornerRadius="20dp"
+                app:cardElevation="4dp"
+                android:layout_marginTop="20dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/bannerthree"
+                    android:scaleType="fitXY"
+                    android:contentDescription="Awurudu Banner"/>
+            </androidx.cardview.widget.CardView>
 
             <!-- Button Section -->
 
