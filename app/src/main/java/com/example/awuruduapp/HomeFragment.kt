@@ -1,5 +1,6 @@
 package com.example.awuruduapp
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
@@ -33,8 +34,18 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_home, container, false)
+        val rootView = inflater.inflate(R.layout.fragment_home, container, false)
+
+        // Find the "New Moon" card
+        val newMoonCard: View = rootView.findViewById(R.id.newmooncard)
+
+        // Set onClickListener to navigate to NakathDescription activity
+        newMoonCard.setOnClickListener {
+            val intent = Intent(activity, NakathDescription::class.java)
+            startActivity(intent)
+        }
+
+        return rootView
     }
 
     companion object {
