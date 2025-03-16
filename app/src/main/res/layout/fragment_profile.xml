@@ -12,17 +12,16 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:padding="24dp"
-        android:layout_marginTop="40dp">
+        android:layout_marginTop="70dp">
 
         <!-- Profile Image -->
         <ImageView
             android:id="@+id/profile_image"
             android:layout_width="120dp"
             android:layout_height="120dp"
-            android:src="@drawable/profilepic"
+            android:src="@drawable/prodp"
             android:contentDescription="Profile Picture"
-            android:scaleType="centerCrop"
-            android:background="@drawable/profilepic" />
+            android:scaleType="centerCrop" />
 
         <!-- User Name -->
         <TextView
@@ -78,12 +77,40 @@
 
     </LinearLayout>
 
-    <!-- TODO: Update blank fragment layout -->
-    <TextView
-        android:layout_width="wrap_content"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Profile"
-        android:textSize="20dp"
-        android:layout_gravity="center"/>
+        android:orientation="vertical"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp">
+
+        <EditText
+            android:id="@+id/editTextText3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Name"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/editTextText5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="text" />
+    </LinearLayout>
+
 
 </FrameLayout>
