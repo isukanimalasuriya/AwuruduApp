@@ -11,7 +11,7 @@
         android:id="@+id/titleText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sinhala Awurudu App"
+        android:text="New Moon Watching"
         android:textStyle="bold"
         android:textSize="18sp"
         android:layout_marginTop="80dp"
@@ -24,7 +24,7 @@
         android:id="@+id/descriptionText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:text="Lorem Lorem sdsddds sds ssd s d dsd sds dsd ssdd hek akslas djd s d dsddddddddd ssdssd dd"
+        android:text="Sinhala New Year is the New Year of the Sinhalese people, commonly known as New Year in Sri Lanka. It is a special celebration and is celebrated not only by the Sinhalese but also by the majority of Sri Lankans. This New Year celebration, which is relevant to many cultures in South and Southeast Asia, is also celebrated by the Sinhalese at the same time. The festival is closely related to the Tamil New Year, Thai New Year, Bengali New Year, Cambodian New Year, Lao New Year, Thingyan in Myanmar and the Oriya New Year festival in India.[1] The day is a public holiday in Sri Lanka. It is usually celebrated on 13 or 14 April."
         android:textAlignment="center"
         android:textSize="14sp"
         android:gravity="center"
@@ -32,7 +32,9 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         android:paddingHorizontal="20dp"
-        android:layout_marginTop="20dp"/>
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
 
     <!-- Date & Time Container -->
     <LinearLayout
@@ -67,7 +69,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:gravity="center"
-                android:text="10/03/2025"
+                android:text="10/04/2025"
                 android:textSize="16sp" />
         </LinearLayout>
 
