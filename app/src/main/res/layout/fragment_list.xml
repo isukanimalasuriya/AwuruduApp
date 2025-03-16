@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:text="අවුරුදු නැකැත්"
             android:textColor="#000000"
-            android:textSize="16sp"
+            android:textSize="20sp"
             android:textStyle="bold" />
 
         <!-- First Card -->
@@ -218,7 +218,7 @@
                     android:id="@+id/event_title_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bathing for the Old Year"
+                    android:text="Preparation of Meals"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -227,7 +227,7 @@
                     android:id="@+id/event_date_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="April 13th Wednesday"
+                    android:text="April 14th Thursday"
                     android:textSize="14sp"
                     android:textColor="@android:color/darker_gray" />
             </LinearLayout>
@@ -236,7 +236,7 @@
                 android:id="@+id/event_icon_5"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/shower" />
+                android:src="@drawable/meals" />
         </LinearLayout>
 
         <LinearLayout
@@ -260,7 +260,7 @@
                     android:id="@+id/event_title_6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bathing for the Old Year"
+                    android:text="Punya Kaalaya"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -278,7 +278,7 @@
                 android:id="@+id/event_icon_6"
                 android:layout_width="40dp"
                 android:layout_height="40dp"
-                android:src="@drawable/shower" />
+                android:src="@drawable/timei" />
         </LinearLayout>
 </LinearLayout>
 

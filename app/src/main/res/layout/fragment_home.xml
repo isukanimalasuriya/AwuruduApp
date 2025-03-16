@@ -127,7 +127,7 @@
                         android:id="@+id/event_date_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="April 04th Sunday"
+                        android:text="April 11th Sunday"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
                 </LinearLayout>
@@ -169,7 +169,7 @@
                         android:id="@+id/event_date_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="April 13th Monday"
+                        android:text="April 11th Monday"
                         android:textSize="14sp"
                         android:textColor="@android:color/black" />
                 </LinearLayout>
@@ -200,7 +200,7 @@
                         android:id="@+id/event_title_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bathing for the Old Year"
+                        android:text="Dawn of the New Year"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -241,7 +241,7 @@
                         android:id="@+id/event_title_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bathing for the Old Year"
+                        android:text="Punya Kaalaya"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         android:textStyle="bold" />
