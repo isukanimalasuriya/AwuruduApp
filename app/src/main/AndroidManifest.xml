@@ -19,13 +19,13 @@
             android:name=".OnboardScreenThree"
             android:exported="false" />
         <activity
-            android:name=".OnboardScreenTwo"
+            android:name=".OnBoardScreen"
             android:exported="false" />
         <activity
             android:name=".NakathDescription"
             android:exported="false" />
         <activity
-            android:name=".OnBoardScreen"
+            android:name=".OnboardScreenTwo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -37,5 +37,4 @@
             android:name=".MainActivity"
             android:exported="false" />
     </application>
-
 </manifest>

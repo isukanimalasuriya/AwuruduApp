@@ -1,6 +1,8 @@
 package com.example.awuruduapp
 
+import android.content.Intent
 import android.os.Bundle
+import android.widget.Button
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.ViewCompat
@@ -11,10 +13,22 @@ class OnboardScreenOne : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_onboard_screen_one)
-        ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
-            val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
-            v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
-            insets
+
+        val backScreen: Button = findViewById(R.id.btnBack)
+        val nextScreen: Button = findViewById(R.id.btnNext)
+
+        backScreen.setOnClickListener{
+            val intent = Intent(this, OnboardScreenThree::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        // Set an OnClickListener on the button
+        nextScreen.setOnClickListener {
+            // Start the HomeScreenActivity
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()  // Optional: Close the current activity (OnBoardScreen)
         }
     }
 }
