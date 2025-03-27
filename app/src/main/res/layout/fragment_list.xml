@@ -47,7 +47,7 @@
                 android:id="@+id/event_title_1"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="New Moon Watching"
+                android:text="නවසද බැලීම"
                 android:textColor="#000000"
                 android:textSize="16sp"
                 android:textStyle="bold" />
@@ -90,7 +90,7 @@
                     android:id="@+id/event_title_2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bathing for the Old Year"
+                    android:text="පරණ අවුරුද්ද සදහා ස්නානය"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -133,7 +133,7 @@
                     android:id="@+id/event_title_3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Anointing Oil"
+                    android:text="හිසතෙල් ගෑම"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -176,7 +176,7 @@
                     android:id="@+id/event_title_4"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Leaving for work"
+                    android:text="වැඩට යෑම"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -218,7 +218,7 @@
                     android:id="@+id/event_title_5"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Preparation of Meals"
+                    android:text="ආහාර අනුභව කිරීම"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     android:textStyle="bold" />
@@ -260,7 +260,7 @@
                     android:id="@+id/event_title_6"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Punya Kaalaya"
+                    android:text="පුණ්‍ය කාලය"
                     android:textColor="#000000"
                     android:textSize="16sp"
                     android:textStyle="bold" />

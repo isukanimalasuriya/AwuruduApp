@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/lightyellow"
+    android:background="@color/primary2"
     tools:context=".OnBoardScreen">
 
     <ImageView
@@ -26,7 +26,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="සුභ අලුත් අවුරුද්දක් වේවා"
-        android:textColor="@color/black"
+        android:textColor="@color/accent"
         android:textSize="22dp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -41,9 +41,9 @@
         android:layout_width="297dp"
         android:layout_height="59dp"
         android:layout_marginTop="120dp"
-        android:backgroundTint="@color/yellow2"
+        android:backgroundTint="@color/primary"
         android:text="Get started"
-        android:textColor="@color/black"
+        android:textColor="@color/accent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"

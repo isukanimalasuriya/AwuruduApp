@@ -19,7 +19,7 @@ class OnBoardScreen : AppCompatActivity() {
         // Set an OnClickListener on the button
         goHomeButton.setOnClickListener {
             // Start the HomeScreenActivity
-            val intent = Intent(this, MainActivity::class.java)
+            val intent = Intent(this, OnboardScreenTwo::class.java)
             startActivity(intent)
             finish()  // Optional: Close the current activity (OnBoardScreen)
         }

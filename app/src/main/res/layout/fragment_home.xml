@@ -58,7 +58,7 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="70dp"
-                    android:backgroundTint="@android:color/holo_orange_light"
+                    android:backgroundTint="@color/primary"
                     android:text="අවුරුදු ක්‍රීඩා"
                     android:textStyle="bold"
                     android:textColor="@android:color/black"/>
@@ -67,8 +67,8 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="70dp"
-                    android:backgroundTint="@android:color/holo_orange_light"
-                    android:text="New Year Rules"
+                    android:backgroundTint="@color/primary"
+                    android:text="අවුරුදු නැකැත්"
                     android:textStyle="bold"
                     android:textColor="@android:color/black"
                     android:layout_marginStart="8dp"/>
@@ -77,8 +77,8 @@
                     android:layout_width="0dp"
                     android:layout_weight="1"
                     android:layout_height="70dp"
-                    android:backgroundTint="@android:color/holo_orange_light"
-                    android:text="Other"
+                    android:backgroundTint="@color/primary"
+                    android:text="වෙනත්"
                     android:textStyle="bold"
                     android:textColor="@android:color/black"
                     android:layout_marginStart="8dp"/>
@@ -89,7 +89,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Upcoming nakath"
+                android:text="ඉදිරි නැකැත්"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 android:textColor="@android:color/black"
@@ -118,7 +118,7 @@
                         android:id="@+id/event_title_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="New Moon Watching"
+                        android:text="නවසද බැලීම"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -161,7 +161,7 @@
                         android:id="@+id/event_title_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Bathing for the Old Year"
+                        android:text="පරණ අවුරුද්ද සදහා ස්නානය"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -202,7 +202,7 @@
                         android:id="@+id/event_title_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Dawn of the New Year"
+                        android:text="අලුත් අවුරුද්ද උදාව"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -244,7 +244,7 @@
                         android:id="@+id/event_title_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Punya Kaalaya"
+                        android:text="පුණ්‍ය කාලය"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         android:textStyle="bold" />
@@ -286,7 +286,7 @@
                         android:id="@+id/event_title_6"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Commencing Work"
+                        android:text="ආහාර පිසීම"
                         android:textColor="#000000"
                         android:textSize="16sp"
                         android:textStyle="bold" />
