@@ -127,7 +127,7 @@
                         android:id="@+id/event_date_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="April 11th Sunday"
+                        android:text="April 09th Sunday"
                         android:textColor="@android:color/black"
                         android:textSize="14sp" />
                 </LinearLayout>
